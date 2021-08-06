@@ -1,0 +1,8 @@
+node_modules
+coverage
+dist
+package-lock.json
+.yalc/
+.swp
+.DS_Store
+.env.dev

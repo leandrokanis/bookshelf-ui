@@ -1,0 +1,816 @@
+{
+  "assignor_details_list": {
+    "document_number": "Documento: ",
+    "name": "Nome: ",
+    "title": "DETALHES DO CEDENTE"
+  },
+  "assignors_table": {
+    "assignor_name": "Nome fantasia",
+    "details_label": "Ver detalhes",
+    "document_number": "Número do documento",
+    "edit_label": "Editar"
+  },
+  "bank_account_form": {
+    "account": "Conta*",
+    "account_type": "Tipo de conta*",
+    "agency": "Agência*",
+    "agreement_number": "Código do convênio no banco (Opcional)",
+    "agreement_number_santander": "Código do convênio no banco*",
+    "bank": "Banco*",
+    "button_create": "Cadastrar conta bancária",
+    "placeholder": "Selecione uma opção",
+    "santander_folder": "Endereço da pasta de transferência*",
+    "station_code": "Código da estação (Opcional)",
+    "station_code_santander": "Código da estação*"
+  },
+  "bank_account_hints": {
+    "account": "Deve conter dígito verificador",
+    "agency": "Deve conter 4 dígitos ou mais"
+  },
+  "bank_account_type_label": {
+    "billing": "Conta Cobrança",
+    "checking": "Conta Corrente",
+    "conciliation": "Conta Conciliação",
+    "movement": "Conta Movimento"
+  },
+  "bank_account_types": {
+    "billing": "Cobrança",
+    "checking": "Checando",
+    "conciliation": "Conciliação",
+    "movement": "Movimentação"
+  },
+  "bank_accounts_table": {
+    "account": "Número da conta",
+    "account_type": "Tipo de conta",
+    "agency": "Agência",
+    "bank_name": "Banco",
+    "empty_state": "Nenhuma conta bancária cadastrada. Clique em “Adicionar conta bancária” para começar.",
+    "footer": "{{amount}} Conta(s) bancária(s) cadastrada(s)"
+  },
+  "batch_acquisition_form": {
+    "acquisition_value": "Valor de aquisição",
+    "agency": "Agência sem dígito",
+    "amount": "Valor",
+    "approve": "Aprovar remessa",
+    "approve_message_error": "É necessário preencher todas as informações",
+    "assignor_bank_account": "Conta cedente",
+    "ballast_empty": "Nenhum Arquivo",
+    "ballast_hint": "Apenas em formato .zip, com tamanho máximo de 25MB",
+    "ballast_subtitle": "Lastros da Remessa",
+    "bank": "Banco",
+    "bank_account": "Conta bancária",
+    "batch": "Remessa",
+    "batch_subtitle": "Detalhes da remessa",
+    "cancel": "Cancelar",
+    "date": "Data de importação",
+    "disapprove": "Reprovar remessa",
+    "file_name": "Nome do arquivo",
+    "fund": "Fundo",
+    "fund_subtitle": "Detalhes do fundo",
+    "justifications_attachment": "Anexo de justificativa",
+    "modal_approve_description": "Você deseja aprovar a remessa?",
+    "modal_approve_title": "Aprovar Remessa",
+    "modal_disapprove_description": "Você deseja reprovar a remessa?",
+    "modal_disapprove_title": "Reprovar Remessa",
+    "nominal_value": "Valor nominal",
+    "participants_subtitle": "Participantes",
+    "refund_value": "Valor de reembolso",
+    "select_account": "Selecione a conta",
+    "settlement_value": "Valor de baixa: ",
+    "ted_subtitle": "Detalhes para envio da ted",
+    "ted_value": "Valor de TED ao Cedente",
+    "title": "Avaliar remessa"
+  },
+  "batch_acquisition_states": {
+    "awaiting_consultancy_approval": "Aguardando aprovação da consultoria",
+    "awaiting_custodian_approval": "Aguardando aprovação da custódia",
+    "awaiting_manager_approval": "Aguardando aprovação da gestora",
+    "awaiting_payment": "Aguardando pagamento ao cedente",
+    "awaiting_signature_approval": "Aguardando assinatura",
+    "disapproved_by_consultancy": "Reprovado pela consultoria",
+    "disapproved_by_custodian": "Reprovado pela custódia",
+    "disapproved_by_manager": "Reprovado pela gestora",
+    "disapproved_signature": "Reprovado pela assinatura",
+    "disapproved_validations": "Falha na validação",
+    "finished": "Finalizado",
+    "payment_error": "Erro no pagamento",
+    "signature_error": "Erro da assinatura",
+    "signature_expired": "Assinatura expirada"
+  },
+  "batch_acquisitions_list": {
+    "acquisition_value": "Valor de aquisição: ",
+    "assignor_ted_value": "Valor TED cedente: ",
+    "concession_tax": "Taxa de cessão: ",
+    "evaluate_batch": "Avaliar Remessa",
+    "file_name": "Nome do arquivo: ",
+    "import_date": "Data de importação: ",
+    "import_hour": "Horário de importação: ",
+    "nominal_value": "Valor nominal: ",
+    "records_quantity": "Quantidade de registros: ",
+    "settlement_value": "Valor de baixa: ",
+    "title": "DETALHES DA AQUISIÇÃO",
+    "view_batch": "Consultar remessa"
+  },
+  "batch_settlement_list": {
+    "approve_button": "Aprovar remessa",
+    "disapprove_button": "Rejeitar remessa",
+    "modal_approve_description": "Você deseja aprovar a remessa?",
+    "modal_approve_title": "Aprovar remessa",
+    "modal_disapprove_description": "Você deseja reprovar a remessa?",
+    "modal_disapprove_title": "Rejeitar remessa",
+    "title": "DETALHES DE BAIXA"
+  },
+  "batch_settlement_states": {
+    "awaiting_custodian_approval": "Aguardando aprovação da custódia",
+    "awaiting_validations": "Aguardando validações",
+    "disapproved_by_custodian": "Reprovado pela custódia",
+    "disapproved_validations": "Validações reprovadas",
+    "finished": "Finalizado"
+  },
+  "batch_settlement_timeline": {
+    "steps": {
+      "custodian": "Aprovação da Custódia",
+      "settlement": "Baixa",
+      "validation": "Validação"
+    },
+    "title": "Status da operação — "
+  },
+  "button_refresh": {
+    "last_updated_at": "Atualizado pela última vez há"
+  },
+  "cnab_filter": {
+    "button_apply": "Pesquisar",
+    "button_clear": "Limpar filtros",
+    "cancel": "Filtrar Resultados",
+    "filter": "Filtrar Resultados",
+    "finish_date": "Data de fim",
+    "finish_date_label": "Fim",
+    "label_assignor": "Cedente",
+    "label_fund": "Fundo",
+    "select_assignor_fund": "Selecione um fundo para habilitar esta opção",
+    "start_date": "Data de início",
+    "start_date_label": "Início",
+    "status": {
+      "aborted": "Abortado",
+      "created": "Criado",
+      "file_name": "Nome do arquivo",
+      "imported": "Importado",
+      "importing": "Importando",
+      "label": "Status",
+      "scheduled": "Importe agendado"
+    }
+  },
+  "cnab_import": {
+    "cancel": "Cancelar",
+    "fund": "Fundo",
+    "new_cnab": "Importar Remessa",
+    "select_fund": "Selecione o Fundo",
+    "send": "Importar Remessa"
+  },
+  "cnab_page": {
+    "approval_import": "Remessa aprovada com sucesso",
+    "approval_success": "Importação concluída com sucesso",
+    "batch_approval": "Não foi possível aprovar a remessa",
+    "batch_disapproval": "Não foi possível reprovar a remessa",
+    "cnab_upload": "Não foi possível realizar o upload do arquivo",
+    "disapproval_success": "Remessa reprovada",
+    "download_cnab": "Download do CNAB",
+    "download_report": "Download do relatório",
+    "empty_download": "Relatório em processamento",
+    "error_upload": {
+      "FORBIDDEN": "Usuário não tem permissão para enviar CNAB.",
+      "file": "Formato de arquivo não suportado.",
+      "fund": "Fundo selecionado não é válido."
+    },
+    "import_success": "CNAB importado com sucesso!",
+    "title": "Gerenciar Remessas"
+  },
+  "cnab_status": {
+    "concluded": "Finalizado",
+    "error": "Interrompido",
+    "in_progress": "Em Processamento"
+  },
+  "cnabs_table": {
+    "columns": {
+      "created_at": "Data e hora",
+      "download": "",
+      "file_name": "Nome do arquivo",
+      "fund_name": "Fundo",
+      "operation": "Operação",
+      "validation": "Validação"
+    },
+    "operation_status": {
+      "awaiting_consultancy_approval": "Aguardando consultoria",
+      "awaiting_custodian_approval": "Aguardando custódia",
+      "awaiting_manager_approval": "Aguardando gestora",
+      "awaiting_payment": "Aprovação da custódia",
+      "awaiting_signature_approval": "Aguardando assinatura",
+      "awaiting_validations": "Aguardando validações",
+      "disapproved_by_consultancy": "Rejeitado pela consultoria",
+      "disapproved_by_custodian": "Rejeitado pela custódia",
+      "disapproved_by_manager": "Rejeitado pela gestora",
+      "disapproved_signature": "Rejeitado pela assinatura",
+      "disapproved_validations": "Validações rejeitadas",
+      "empty": "Processando",
+      "finished": "Finalizado",
+      "payment_error": "Erro no pagamento",
+      "signature_error": "Erro na assinatura",
+      "signature_expired": "Assinatura expirada"
+    },
+    "validation_status": {
+      "aborted_import": "Abortado",
+      "created": "Criado",
+      "imported": "Importado",
+      "importing": "Importando",
+      "scheduled_import": "Processando"
+    }
+  },
+  "details_invalid_cnab": {
+    "details_message": "Não foi possível realizar a leitura do arquivo CNAB. Faça o download do relatório clicando no botão abaixo para saber mais detalhes."
+  },
+  "eligibility_assignors": {
+    "blocked_assignors": "Cedentes não-permitidos ao fundo",
+    "button_cancel": "Cancelar",
+    "button_save": "Salvar configurações",
+    "max_asset_concentration": "Concentração máxima de ativos por cedente (Opcional)",
+    "max_net_worth": "Concentração máxima de PL por cedente (Opcional)",
+    "max_pdd": "Concentração máxima de PDD por cedente (Opcional)",
+    "min_asset_concentration": "Concentração mínima de ativos por cedente (Opcional)",
+    "title_divider": "Configurações Gerais"
+  },
+  "eligibility_edit": {
+    "button_link_pdd": "Aplicar régua existente",
+    "cancel": "Cancelar",
+    "edit_fail": "Não foi possível salvar as configurações.",
+    "edit_success": "Configurações salvas com sucesso.",
+    "error_finish": "Não foi possível finalizar regua.",
+    "error_link_pdd": "Não foi possível aplicar a Régua de PDD ao fundo.",
+    "menu": {
+      "assignors": "2. Cedentes",
+      "fund_config": "1. Configurações do fundo",
+      "payers": "3. Sacados",
+      "pdd_ruler": "5. Réguas de PDD",
+      "receivable_types": "4. Tipos de recebíveis"
+    },
+    "success_finish": "Regua finalizada.",
+    "success_link_pdd": "A Régua de PDD foi aplicada ao fundo.",
+    "title": "Configurações de elegibilidade",
+    "update_error": "Não foi possível atualizar o recebível",
+    "update_error_assignor": "Não foi possível atualizar a regra de cedente",
+    "update_error_payer": "Não foi possível atualizar a regra de sacado",
+    "update_sucess": "Recebível atualizado com sucesso",
+    "update_sucess_assignor": "Regra de cedente atualizada com sucesso",
+    "update_sucess_payer": "Regra de sacado atualizada com sucesso"
+  },
+  "eligibility_form": {
+    "button_save": "Salvar configurações",
+    "max_acquisition": "Taxa de aquisição máxima (Opcional)",
+    "min_acquisition": "Taxa de aquisição mínima (Opcional)",
+    "title_divider": "Configurações Gerais"
+  },
+  "empty_state": {
+    "change_filters": "Você pode tentar ajustar os filtros ou os termos de busca para encontrar o que procura.",
+    "no_results_found": "Não encontramos nenhum resultado"
+  },
+  "errors": {
+    "BAD_REQUEST": "Houve um erro, entre em contato com o Administrador.",
+    "FORBIDDEN": "Sem permissão.",
+    "INTERNAL_SERVER_ERROR": "Houve um erro no, entre em contato com o Administrador do servidor.",
+    "NOT_ACCEPTABLE": "Houve um erro, entre em contato com o Administrador.",
+    "NOT_FOUND": "Página não encontrada.",
+    "REQUEST_TIMEOUT": "O tempo da requisição excedeu.",
+    "UNAUTHORIZED": "Sem autorização.",
+    "UNPROCESSABLE_ENTITY": "Não foi possível enviar. Verifique os dados."
+  },
+  "form_pdd_fund_ruler": {
+    "assignor_hint": "Caso não selecione nenhum, será aplicada a todos os cedentes do fundo.",
+    "assignor_label": "Aplicar somente aos seguintes Cedentes",
+    "cancel": "Cancelar",
+    "confirm": "Aplicar régua selecionada",
+    "multiple_placeholders": "Selecione uma ou mais opções",
+    "payer_hint": "Caso não selecione nenhum, será aplicada a todos os sacados do fundo.",
+    "payer_label": "Aplicar somente aos seguintes Sacados",
+    "pdd_placeholder": "Selecione uma opção",
+    "pdd_ruler": "Régua de PDD",
+    "receivable_type_hint": "Caso não selecione nenhum, será aplicada a todos os tipos de recebíveis do fundo.",
+    "receivable_type_label": "Aplicar somente aos seguintes tipos de recebíveis",
+    "subtitle": "Configurações avançadas",
+    "title": "Aplicar régua de PDD ao fundo"
+  },
+  "form_representative": {
+    "button_create": "Cadastrar representante",
+    "document_number": "CNPJ ou CPF*",
+    "email": "E-mail*",
+    "phone_number": "Telefone*",
+    "primary_name": "Nome*",
+    "signature": "Assinatura",
+    "type_of_person": "Tipo de pessoa*"
+  },
+  "fund_details_collumns_labels": {
+    "assignor_details": "Detalhes do cedente",
+    "fund_details": "Detalhes do fundo"
+  },
+  "fund_details_list": {
+    "account": "Conta: ",
+    "agency": "Agência: ",
+    "bank": "Banco: ",
+    "cnpj": "CNPJ: ",
+    "name": "Fundo: ",
+    "title": "DETALHES DO FUNDO"
+  },
+  "fund_edit": {
+    "add_bank_account": "Adicionar conta bancária",
+    "add_related_part": "Adicionar parte relacionada",
+    "add_representative": "Adicionar representante",
+    "cancel": "Cancelar",
+    "close": "Fechar",
+    "confirm_registration": "Concluir cadastro",
+    "confirm_remove": "Sim, excluir",
+    "confirm_save_changes": "Sim, salvar alterações",
+    "confirmation_message": "Você realizou alterações que ainda não foram salvas. Se sair agora, estas alterações não serão aplicadas. Deseja salvar estas alterações agora?",
+    "create_representative_error": "Não foi possível criar o representante.",
+    "create_representative_success": "Representate criado com sucesso.",
+    "error_edit": "Não foi possível alterar o fundo.",
+    "message": {
+      "error_create_bank_account": "Não foi possível criar a conta bancária",
+      "error_create_related_part": "Não foi possível criar a parte relacionada",
+      "error_remove_bank_account": "Não foi possível remover esta conta bancária",
+      "error_toggle_bank_account": "",
+      "error_toggle_related_part": "",
+      "success_create_bank_account": "Conta bancária cadastrada com sucesso.",
+      "success_create_related_part": "Parte relacionada cadastrada com sucesso.",
+      "success_remove_bank_account": "A conta bancária foi removida"
+    },
+    "remove_message": "Deseja excluir esta conta bancária da lista de contas bancárias do fundo?",
+    "remove_title": "Excluir conta bancária",
+    "save_changes": "Salvar alterações",
+    "should_save_changes": "Salvar alterações?",
+    "success_edit": "Fundo atualizado com sucesso.",
+    "title": "Editar cadastro de fundo"
+  },
+  "fund_filter": {
+    "button_apply": "Pesquisar",
+    "button_clear": "Limpar filtros",
+    "cancel": "Filtrar Resultados",
+    "filter": "Filtrar Resultados",
+    "label_document": "Número do documento",
+    "label_fund": "Fundo",
+    "select_document": "Selecione o número do documento",
+    "select_fund": "Selecione o Fundo"
+  },
+  "fund_form_register": {
+    "admin": "Administrador*",
+    "anbid_code": "Código ANBID (Opcional)",
+    "appreciation_type": "Tipo de valorização*",
+    "appreciation_types": {
+      "business_days": "Dias úteis",
+      "calendar_days": "Dias corridos"
+    },
+    "bacen": "Tipo de envio - BACEN 3040 (Opcional)",
+    "bacen3040_types": {
+      "hybrid": "Híbrido",
+      "non_standard": "Não-padronizado",
+      "standard": "Padronizado "
+    },
+    "certifiers": "Certificadoras*",
+    "cetip_code": "Código CETIP (Opcional)",
+    "cnpj": "CNPJ*",
+    "condominium_type": "Tipo de condomínio*",
+    "condominium_types": {
+      "closed": "Fechado",
+      "open": "Aberto"
+    },
+    "consultancy": "Consultoria*",
+    "current_situation": "Situação atual*",
+    "cvm_code": "Código CVM*",
+    "cvm_registered_id": "Data de registro na CVM*",
+    "filter_button": "Filtrar Resultados",
+    "fund_type": "Tipo de fundo*",
+    "isin_code": "Código ISIN*",
+    "manager": "Gestora*",
+    "max_refund": "Percentual máximo de reembolso (Opcional)",
+    "name": "Nome do fundo*",
+    "phone_number": "Telefone",
+    "placeholder": "Selecione uma opção",
+    "receivable_types": "Tipos de recebíveis*",
+    "receivable_types_hint": "Depois do cadastro, você poderá configurar cada tipo de recebível nas configurações de elegibilidade do fundo.",
+    "refund_limit": "Limite de reembolso (Opcional)",
+    "register_button": "Cadastrar novo fundo",
+    "register_date": "Data de registro (Opcional)",
+    "risk_level": "Nível de risco*",
+    "risk_levels": {
+      "high": "Alto",
+      "low": "Baixo",
+      "medium": "Médio",
+      "medium_high": "Médio alto"
+    },
+    "selic_code": "Código SELIC (Opcional)",
+    "title": "Cadastros de fundos",
+    "title_divider": {
+      "certifier": "Certificadora",
+      "data": "Dados Cadastrais",
+      "parameters": "Parâmetros",
+      "participants": "Participantes"
+    }
+  },
+  "fund_menu": {
+    "bank_accounts": "2. Contas bancárias",
+    "registration_data": "1. Dados cadastrais",
+    "related_parts": "4. Partes relacionadas",
+    "representatives": "3. Representantes"
+  },
+  "fund_pdd_ruler": {
+    "begin": "DATA DE INÍCIO",
+    "empty_state": "Nenhuma régua de PDD aplicada ao fundo ainda.",
+    "finish": "DATA DE FINALIZAÇÃO",
+    "ruler_name": "NOME DA RÉGUA DE PDD"
+  },
+  "fund_select_certifier": {
+    "button": "Associar certificadora",
+    "select_certifier": "Selecione a certificadora",
+    "title": "Certificadora"
+  },
+  "fund_table": {
+    "columns": {
+      "document_number": "Número do Documento",
+      "isin_code": "Código ISIN",
+      "name": "Nome Fantasia"
+    },
+    "fund_title": "Cadastro de Fundos"
+  },
+  "funds": {
+    "edit_eligibility": "Configurações de elegibilidade",
+    "edit_fund": "Editar cadastro de fundo",
+    "register_error": "Não foi possível criar o fundo",
+    "register_message": "Para que o fundo seja capaz de operar com alta performance e maior segurança, recomendamos fortemente que defina as suas configurações. Deseja fazer as configurações agora?",
+    "register_success": "Fundo cadastrado com sucesso."
+  },
+  "login_form": {
+    "email": "E-mail",
+    "email_sent_button": "Login",
+    "email_sent_success": "Você receberá um e-mail com instruções sobre como redefinir sua senha.",
+    "email_sent_text": "Enviamos para o seu e-mail um link com as instruções de recuperação da sua senha. Por favor, verifique a sua caixa de entrada.",
+    "email_sent_title": "E-mail enviado!",
+    "forget_password": "Esqueci minha senha",
+    "new_password": "Definir senha",
+    "new_password_button": "Confirmar",
+    "new_password_confirm": "Confirmar senha",
+    "new_password_success": "Senha redefinida com sucesso.",
+    "password": "Senha",
+    "password_confirm_hint": "As senhas não coincidem.",
+    "password_hint": "A senha deve respeitar os critérios abaixo.",
+    "password_rules": {
+      "description": "Não deve conter partes significativas do nome da conta do usuário; Deve conter ao menos 6 caracteres; Deve conter caracteres de ao menos três das quatro categorias a seguir:",
+      "rule_lowercase": "Letras em caixa baixa (a-z)",
+      "rule_numbers": "Números (0-9)",
+      "rule_special": "Caracteres especiais (: !, $, #, %)'<",
+      "rule_uppercase": "Letras em caixa alta (A-Z)"
+    },
+    "register": "Ainda não sou cliente",
+    "reset_password_button": "Enviar e-mail de recuperação",
+    "reset_password_title": "Esqueci minha senha",
+    "return_button": "Ir para a página de login",
+    "submit": "Entrar",
+    "title": "Faça seu login"
+  },
+  "menu": {
+    "cnabs": "Gerenciar Remessas",
+    "dashboard": "Dashboard",
+    "registers": {
+      "assignor": "Cedente",
+      "funds": "Fundos",
+      "payer": "Sacado",
+      "pdd": "Réguas de PDD",
+      "title": "Cadastros",
+      "users": "Usuários"
+    },
+    "reports": "Relatórios"
+  },
+  "modal_confirmation": {
+    "default_cancel": "Cancelar",
+    "default_confirmation": "Confirmar",
+    "default_deny": "Não salvar"
+  },
+  "modal_justification": {
+    "description": "O valor de reembolso inserido excede o limite válido pelo fundo, por favor adicione uma justificativa para o valor excedente. A justificativa deverá ser realizada por escrito e/ou upload de um arquivo.",
+    "file_hint": "Apenas em formato .zip, com tamanho máximo de 5MB",
+    "file_label": "Anexar arquivo",
+    "text_label": "Justificativa de reembolso"
+  },
+  "payers_form": {
+    "maxNetWorth": "Concentração máxima de PL por sacado (Opcional)",
+    "maxPayerAssets": "Concentração máxima de ativos por sacado (Opcional)",
+    "on_save_button": "Salvar configurações",
+    "title": "Configurações Gerais"
+  },
+  "payers_table": {
+    "details_label": "Ver detalhes",
+    "document_number": "Número do documento",
+    "edit_label": "Editar",
+    "payer_name": "Nome fantasia"
+  },
+  "pdd_range_form": {
+    "button_add": "Adicionar faixa",
+    "errors": {
+      "empty_form": "Preencha todos os campos obrigatórios",
+      "max_pdd": "Não pode ser maior que 100%",
+      "minimum_to": "Não pode ser menor que o mínimo"
+    },
+    "from": "Mín. de dias",
+    "isWriteOff": "Write-off (WO)",
+    "pdd": "Percentual apropriado",
+    "riskLevel": "Nível de risco",
+    "to": "Máx. de dias",
+    "to_hint": "Pode ser infinito"
+  },
+  "pdd_ranges_table": {
+    "footer": "Nenhuma faixa de PDD criada ainda.",
+    "from": "Mín. de dias",
+    "isWriteOff": "Write-off (WO)",
+    "name": "Nome da Régua de PDD",
+    "pdd": "Percentual apropriado",
+    "risk_level": "Nível de risco",
+    "to": "Máx. de dias"
+  },
+  "pdd_rulers": {
+    "button_submit": "Criar régua de PDD",
+    "button_update": "Salvar alterações",
+    "create": {
+      "button_add": "Nova faixa",
+      "button_close": "Cancelar",
+      "name_label": "Nome da régua",
+      "success_create": "A Regua de PDD foi criada.",
+      "title": "Criar nova régua de PDD",
+      "title_divider_config": "CONFIGURAÇÕES GERAIS",
+      "title_divider_pdd": "FAIXAS DE PDD"
+    },
+    "edit": {
+      "button_add": "Nova faixa",
+      "button_close": "Cancelar",
+      "name_label": "Nome da régua",
+      "success_create": "A Regua de PDD foi criada.",
+      "title": "Editar régua de PDD",
+      "title_divider_config": "CONFIGURAÇÕES GERAIS",
+      "title_divider_pdd": "FAIXAS DE PDD"
+    },
+    "error_create": "Não foi possível criar a régua de PDD",
+    "table_empty_state": "Nenhuma régua de PDD cadastrada ainda.",
+    "title": "Criar nova régua de PDD"
+  },
+  "pdd_rulers_page": {
+    "create_button": "Criar nova régua de PDD",
+    "title": "Réguas de PDD"
+  },
+  "pdd_rulers_table": {
+    "name": "Nome da Régua de PDD"
+  },
+  "receivable_types_table": {
+    "button_save": "Salvar configurações",
+    "is_active": "Regra Ativa",
+    "max_due_days": "Prazo máximo (em dias)",
+    "max_percentage": "Concentração máxima de PL",
+    "max_value": "Valor máximo",
+    "min_due_days": "Prazo mínimo (em dias)",
+    "min_percentage": "Concentração mínima de PL",
+    "min_value": "Valor mínimo",
+    "name": "Nome",
+    "title": "Configurações Gerais"
+  },
+  "related_parts_form_create": {
+    "button_create": "Cadastrar parte relacionada",
+    "document": "CPF ou CNPJ*",
+    "email": "E-mail (Opcional)",
+    "name": "Nome ou razão social*",
+    "phone": "Telefone (Opcional)"
+  },
+  "related_parts_table": {
+    "button_save": "Salvar alterações",
+    "cnpj": "CNPJ/CPF",
+    "email": "E-mail",
+    "empty_state": "Nenhuma parte relacionada cadastrada. Clique em “Adicionar parte relacionada” para começar.",
+    "footer": "{{amount}} Parte(s) relacionada(s) cadastrada(s)",
+    "messages": {
+      "delete_modal_text": "Excluir parte relacionada",
+      "delete_modal_title": "Deseja excluir esta parte relacionada?",
+      "update_error": "Não foi possível atualizar a parte relacionada",
+      "update_success": "Parte relacionada editada com sucesso"
+    },
+    "phone": "Telefone",
+    "related_name": "Nome",
+    "remove_error": "Não foi possível remover",
+    "remove_success": "Removido com sucesso"
+  },
+  "remittance_details_collumns_label": {
+    "remittance_details": "Detalhes da remessa"
+  },
+  "report_filter": {
+    "button_apply": "Pesquisar",
+    "button_clear": "Limpar filtros",
+    "cancel": "Filtrar Resultados",
+    "filter": "Filtrar Resultados",
+    "finish_date": "DD/MM/AAAA",
+    "finish_date_label": "Fim",
+    "kind_label": "Tipo de relatório",
+    "label_fund": "Fundo",
+    "select_fund": "Selecione o Fundo",
+    "select_kind": "Selecione o Tipo de Relatório",
+    "select_status": "Selecione o Status",
+    "start_date": "DD/MM/AAAA",
+    "start_date_label": "Início",
+    "status": {
+      "building": "Gerando",
+      "concluded": "Pronto",
+      "failed": "Falha",
+      "label": "Status"
+    }
+  },
+  "report_page": {
+    "cancel_report": "Cancelar",
+    "fields_acquisition_report": {
+      "assignor": "Cedente",
+      "payer": "Sacado",
+      "receivable_types": "Tipos de recebíveis",
+      "reference_date": "Data de referência*",
+      "report_format": "Formato*",
+      "status": {
+        "awaiting_approvals": "Aguardando aprovação",
+        "finished": "Processadas",
+        "label": "Situação da aquisição",
+        "rejected": "Rejeitadas"
+      }
+    },
+    "fields_invalid_cnab_report": {
+      "batch_operation_type": {
+        "batch_acquisitions": "Somente aquisições",
+        "batch_repurchases": "Somente recompras",
+        "batch_settlements": "Somente baixas",
+        "label": "Tipo da Remessa"
+      },
+      "created_at": "Data de importação*",
+      "report_format": "Formato*"
+    },
+    "fields_inventory_report": {
+      "reference_date": "Data de referência*",
+      "report_format": "Formato*"
+    },
+    "fields_settlement_report": {
+      "assignor": "Cedente",
+      "payer": "Sacado",
+      "receivable_types": "Tipos de recebíveis",
+      "reference_date": "Data de referência*",
+      "report_format": "Formato*",
+      "status": {
+        "awaiting_approvals": "Aguardando aprovação",
+        "finished": "Processadas",
+        "label": "Situação da baixa",
+        "rejected": "Rejeitadas"
+      }
+    },
+    "fields_stock_report": {
+      "reference_date": "Data de referência*",
+      "report_format": "Formato*"
+    },
+    "fields_valid_cnab_report": {
+      "batch_operation_state": {
+        "approved": "Aprovada",
+        "awaiting_approval": "Em aprovação",
+        "label": "Situação da Remessa"
+      },
+      "batch_operation_type": {
+        "batch_acquisitions": "Somente aquisições",
+        "batch_repurchases": "Somente recompras",
+        "batch_settlements": "Somente baixas",
+        "label": "Tipo da Remessa"
+      },
+      "created_at": "Data de importação*",
+      "report_format": "Formato*"
+    },
+    "format": {
+      "csv": "CSV",
+      "pdf": "PDF"
+    },
+    "messages": {
+      "error": "Problema ao gerar relatório!",
+      "success": "O relatório está sendo gerado. Isto pode levar alguns minutos."
+    },
+    "new_report": "Solicitar relatório",
+    "report_import": {
+      "fund_name": "Fundo*",
+      "report_type": "Tipo de Relatório*"
+    },
+    "title": "Relatórios"
+  },
+  "report_status": {
+    "building": "Gerando",
+    "concluded": "Pronto",
+    "failed": "Falha",
+    "in_progress": "Gerando",
+    "in_queue": "Gerando",
+    "ready_to_build": "Gerando"
+  },
+  "report_types": {
+    "acquisition": "Relatório de aquisições",
+    "invalid_cnab": "Remessas inválidas",
+    "inventory": "Relatório de estoque detalhado",
+    "settlement": "Relatório de baixas",
+    "stock": "Relatório de estoque consolidado",
+    "valid_cnab": "Remessas importadas"
+  },
+  "reports_table": {
+    "created_at": "Data de solicitação",
+    "download": "Download de relatório de remessa",
+    "fund": "Fundo",
+    "kind": "Tipo de relatório",
+    "status": "Status"
+  },
+  "representative_table": {
+    "button_save": "Salvar alterações",
+    "can_issue_invoice": "Emite duplicata.",
+    "can_sign_by_endorsement": "Assina por endosso.",
+    "can_sign_concession_term": "Assina termo de cessão.",
+    "can_sign_sole": "Assina sozinho.",
+    "cnpj": "CNPJ/CPF",
+    "delete_modal_text": "Deseja excluir este representante?",
+    "delete_modal_title": "Excluir representante",
+    "email": "E-mail*",
+    "empty_state": "Nenhum representante cadastrado. Clique em “Adicionar representante” para começar.",
+    "footer": "{{amount}} Representantes(s) cadastrado(s)",
+    "name": "Nome",
+    "phone": "Telefone*",
+    "title_divider": "Assinatura",
+    "update_representative_error": "Não foi possivel atualizar o representante",
+    "update_representative_success": "Representante atualizado com sucesso."
+  },
+  "repurchase_details_list": {
+    "acquisition_value": "Valor de aquisição: ",
+    "acquisitions_count": "Quantidade de registros adquiridos",
+    "assignor_name": "Nome do Cedente: ",
+    "assignor_number": "CNPJ: ",
+    "assignor_title": "Detalhes do cedente",
+    "fund_bank_account": "Conta: ",
+    "fund_bank_agency": "Agência: ",
+    "fund_bank_name": "Banco: ",
+    "fund_name": "Nome do Fundo: ",
+    "fund_number": "CNPJ: ",
+    "fund_title": "Detalhes do fundo",
+    "nominal_value": "Valor nominal: ",
+    "repurchase_title": "Detalhes da recompra",
+    "settlement_value": "Valor de baixa: ",
+    "settlements_count": "Quantidade de registros baixados: ",
+    "ted_value": "Valor de TED ao Cedente: "
+  },
+  "select_certifier": {
+    "button_cancel": "Cancelar",
+    "button_select": "Adicionar certificadora",
+    "label": "Cerficadora",
+    "placeholder": "Selecione a certificadora"
+  },
+  "select_guarantor": {
+    "label": "Avalista",
+    "placeholder": "Selecione o Avalista"
+  },
+  "select_witness": {
+    "label": "Testemunha",
+    "placeholder": "Selecione a Testemunha"
+  },
+  "settlement_details_list": {
+    "nominal_value": "Valor nominal: ",
+    "paid_value": "Valor de movimentação: ",
+    "settlements_count": "Quantidade de registros: "
+  },
+  "sign_in_page": {
+    "document_title": "Documento",
+    "password_title": "Senha de acesso",
+    "title": "Cadastro de usuário",
+    "user_data_title": "Dados cadastrais"
+  },
+  "sign_up": {
+    "document_button": "Próximo",
+    "document_label": "CNPJ/CPF*"
+  },
+  "timeline_acquisition": {
+    "steps": {
+      "consultancy": "Aprovação da consultoria",
+      "custodian": "Aprovação da custódia",
+      "manager": "Aprovação da gestora",
+      "payment": "Pagamento",
+      "signature": "Assinatura",
+      "validation": "Validação"
+    },
+    "title": "Status da operação — "
+  },
+  "user_invitations_page": {
+    "create_button": "Convidar usuário",
+    "title": "Cadastros de usuários"
+  },
+  "user_invitations_table": {
+    "roles": {
+      "admin": "Administrador",
+      "operator": "Operador"
+    },
+    "status": {
+      "finished": "Concluído",
+      "pending": "Pendente"
+    }
+  }
+}

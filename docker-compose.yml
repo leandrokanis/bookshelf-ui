@@ -1,0 +1,17 @@
+version: '3.4'
+services:
+  frontend:
+    hostname: 'bookshelf.local'
+    build:
+      context: .
+      dockerfile: Dockerfile
+    env_file:
+      - './infrastructure/docker/.env.dev'
+    ports:
+      - '80:8080'
+    networks:
+      - bookshelf
+networks:
+  bookshelf:
+    external: true
+    
