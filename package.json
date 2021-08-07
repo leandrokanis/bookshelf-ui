@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "build": "webpack --config webpack.prod.js",
-    "deploy": "",
+    "deploy": "build && gh-pages -d dist",
     "dev": "yarn dev:base -- --open",
     "dev:base": "webpack-dev-server --config webpack.dev.js",
     "format": "prettier --write src/**/*.{js,jsx,ts,tsx}",
@@ -20,6 +20,7 @@
   },
   "keywords": [],
   "author": "Leandro Alves",
+  "homepage": "https://leandrokanis.github.io/bookshelf-ui",
   "license": "ISC",
   "devDependencies": {
     "@testing-library/jest-dom": "^5.11.0",
@@ -52,6 +53,7 @@
     "eslint-plugin-standard": "^4.0.1",
     "faker": "^5.5.3",
     "file-loader": "^6.0.0",
+    "gh-pages": "^3.2.3",
     "git-commit-msg-linter": "^2.4.4",
     "html-webpack-plugin": "^4.3.0",
     "husky": "^4.2.5",

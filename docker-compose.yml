@@ -1,7 +1,7 @@
 version: '3.4'
 services:
   frontend:
-    hostname: 'bookshelf.local'
+    hostname: '127.0.0.1'
     build:
       context: .
       dockerfile: Dockerfile

@@ -26,7 +26,7 @@
 - yarn >= 1.22
 
 
-
+Install dependencies
 ```sh
 yarn install
 ```
@@ -38,9 +38,17 @@ yarn run start
 ```
 
 
-You can use Docker as well:
+You can use Docker as well
+
+First, create a network called bookshelf:
+
 ```bash
-docker-compose up
+sudo docker network create -d overlay bookshelf
+```
+
+You can run it:
+```bash
+sudo docker-compose up
 ```
 
 ## Run tests
